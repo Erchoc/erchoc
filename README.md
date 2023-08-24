@@ -1,4 +1,4 @@
-## Hi there, I'm [龙野!](https://github.com/erchoc) 👋👋👋
+## Hi, I'm [龙野](https://github.com/erchoc)👋👋👋
 
 <table width="960px">
 <tr>
