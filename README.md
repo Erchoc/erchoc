@@ -16,23 +16,18 @@
 <br/><br/>
 
 <!-- ═══════════════════════════════════════ -->
-<!-- 🎯 MISSION DASHBOARD — 任务面板（大哥自看核心区，实时盯进度） -->
+<!-- 🎯 MISSION DASHBOARD — 任务面板（每 6 小时自动更新，盯进度看这里） -->
 <!-- ═══════════════════════════════════════ -->
 <img src="https://img.shields.io/badge/🎯─MISSION%20DASHBOARD-f778ba?style=for-the-badge&labelColor=0d1117"/>
 
 <br/><br/>
 
-<!-- followers 实时数(shields 动态拉 GitHub API，自动更新) + 两枚目标进度徽章 -->
+<!-- PROGRESS:START -->
+<!-- ⚠️ 下面这块由 scripts/update_progress.py + GitHub Action 每 6 小时自动刷新，勿手改 -->
 <a href="https://github.com/erchoc?tab=followers"><img src="https://img.shields.io/badge/dynamic/json?color=2ee59d&label=Followers&query=$.followers&url=https://api.github.com/users/erchoc&style=for-the-badge&labelColor=0d1117"/></a>
-<img src="https://img.shields.io/badge/Followers-48%2F500-2ee59d?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Star%20Goal-★%200%2F1000-00d8ff?style=for-the-badge&labelColor=0d1117"/>
-
 <br/>
-
-<!-- 进度条（当前手填，可改 ▓░ 字符；想全自动见文末 Action 方案） -->
-<img src="https://img.shields.io/badge/▓░░░░░░░░░-Followers%2010%25-f778ba?style=flat&labelColor=0d1117&color=2d1b3a"/>
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/░░░░░░░░░░-Stars%200%25-f778ba?style=flat&labelColor=0d1117&color=2d1b3a"/>
+<img src="assets/progress.svg?v=48_17" width="520" alt="mission progress"/>
+<!-- PROGRESS:END -->
 
 <br/><br/>
 
@@ -122,20 +117,16 @@
 
 <!--
 ========================================
-🔧 维护说明（给 erchoc 自己看，注释不会渲染到主页）
+🔧 维护说明（给 erchoc 自己看，注释不渲染到主页）
 ========================================
-✅ 完全自动、实时刷新（不用管）：
+✅ 全自动、不用管：
    - Followers 实时徽章（dynamic/json 拉 GitHub API）
-   - Stats / Streak / Activity / Top-Langs / Trophy / Visitor
-   每次 GitHub 渲染主页都会重新拉，数据永远是最新的。
+   - 进度条 SVG（assets/progress.svg，GitHub Action 每 6h 更新，见 .github/workflows/update-progress.yml）
+   - Stats / Streak / Activity / Top-Langs / Trophy / Visitor 全部实时拉 API
 
-✏️ 唯一要手动改的（或上 Action 全自动，见下）：
-   1. 进度徽章「48/500」「★ 0/1000」和进度条「▓░░░░░░░░░」字符
-   2. FEATURED 区 pin 卡片的 repo=cc-connect-web（换成冲 1000★ 的主推仓库）
-   3. 技术栈 skillicons 的 i= 参数（增删语言）
-
-🤖 进度条全自动方案（推荐，配 GitHub Action）：
-   加 .github/workflows/update-progress.yml，每天跑脚本查 followers/stars，
-   自动重写本文件的进度行 + 生成进度条 SVG。需要的话让 Claude 生成。
+✏️ 偶尔手动改：
+   1. FEATURED 区 pin 卡片的 repo=cc-connect-web → 换成冲 1000★ 的主推仓库
+   2. 技术栈 skillicons 的 i= 参数 → 增删语言
+   3. 目标 500/1000 变了 → 同步改 scripts/update_progress.py 里的 FOLLOWERS_GOAL / STARS_GOAL
 ========================================
 -->
