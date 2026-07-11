@@ -1,32 +1,28 @@
 <div align="center">
 
-## Hi there 👋
+<br>
 
 I'm **@erchoc** — building open-source tools.
 
+`JavaScript` `TypeScript` `Go` `Python` `React` `Node.js`
+
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=erchoc&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&include_all_commits=true" height="158" alt="stats"/>
-&nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=erchoc&hide_border=true&theme=tokyonight" height="158" alt="streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=erchoc&show_icons=true&hide_border=true&theme=github_dark&count_private=true&include_all_commits=true" height="150" alt="stats"/>
 
-<br><br>
+<br>
 
 <!-- PROGRESS:START -->
 <!-- 由 scripts/update_progress.py + GitHub Action 每 6h 自动更新 -->
-<img src="assets/progress.svg?v=48_17" width="460" alt="progress"/>
+<img src="assets/progress.svg?v=48_17" width="420" alt="progress"/>
 <!-- PROGRESS:END -->
 
-<br><br>
+<br>
 
-<img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,go,python,git,docker&perline=8&theme=dark" alt="tech"/>
+<img src="https://github-readme-stats.vercel.app/api/pin?username=erchoc&repo=cc-connect-web&hide_border=true&theme=github_dark" alt="featured"/>
 
-<br><br>
+<br>
 
-<img src="https://github-readme-stats.vercel.app/api/pin?username=erchoc&repo=cc-connect-web&hide_border=true&theme=tokyonight" alt="featured"/>
-
-<br><br>
-
-<a href="https://longye.top">🌐</a> &nbsp;·&nbsp; <a href="mailto:longye@163.com">✉️</a>
+<a href="https://longye.top">website</a> &nbsp;·&nbsp; <a href="mailto:longye@163.com">email</a>
 
 </div>
