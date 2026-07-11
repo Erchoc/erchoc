@@ -1,0 +1,50 @@
+name: Update Languages
+
+on:
+  schedule:
+    # 每天 04:37 UTC（约北京时间中午，避开整点拥堵）
+    - cron: '37 4 * * *'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_languages.py'
+      - '.github/workflows/update-languages.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-languages
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install cloc
+        run: sudo apt-get update && sudo apt-get install -y cloc
+
+      - name: Scan repos & build language stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: erchoc
+        run: python scripts/update_languages.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "no changes, skip"
+          else
+            git add README.md assets/languages.svg
+            git commit -m "chore(langs): auto-update language code stats [skip ci]"
+            git push
+          fi

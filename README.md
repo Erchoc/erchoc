@@ -19,6 +19,13 @@ I'm **@erchoc** — building open-source tools.
 
 <br>
 
+<!-- LANGS:START -->
+<!-- 由 scripts/update_languages.py + GitHub Action 每天扫描真实代码行数 -->
+<img src="assets/languages.svg?v=init" width="360" alt="languages"/>
+<!-- LANGS:END -->
+
+<br>
+
 <img src="https://github-readme-stats.vercel.app/api/pin?username=erchoc&repo=cc-connect-web&hide_border=true&theme=github_dark" alt="featured"/>
 
 <br>
