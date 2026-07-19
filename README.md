@@ -21,7 +21,7 @@ I'm **@erchoc** — building open-source tools.
 
 <!-- LANGS:START -->
 <!-- 由 scripts/update_languages.py + GitHub Action 每天扫描真实代码行数 -->
-<img src="assets/languages.svg?v=541456" width="360" alt="languages"/>
+<img src="assets/languages.svg?v=696886" width="360" alt="languages"/>
 <!-- LANGS:END -->
 
 <br>
