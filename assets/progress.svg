@@ -6,7 +6,7 @@
   <rect x="110" y="20" rx="4" ry="4" width="26" height="8" fill="#3fb950"/>
   <text x="406" y="27" font-family="-apple-system,Segoe UI,Helvetica,Arial" font-size="12" font-weight="600" fill="#3fb950" text-anchor="end">10%</text>
   <text x="14" y="58" font-family="-apple-system,Segoe UI,Helvetica,Arial" font-size="10" font-weight="600" letter-spacing="0.8" fill="#8b949e">STARS</text>
-  <text x="14" y="73" font-family="-apple-system,Segoe UI,Helvetica,Arial" font-size="16" font-weight="600" fill="#c9d1d9">17<tspan fill="#8b949e" font-size="12"> / 1000</tspan></text>
+  <text x="14" y="73" font-family="-apple-system,Segoe UI,Helvetica,Arial" font-size="16" font-weight="600" fill="#c9d1d9">19<tspan fill="#8b949e" font-size="12"> / 1000</tspan></text>
   <rect x="110" y="62" rx="4" ry="4" width="268" height="8" fill="#21262d"/>
   <rect x="110" y="62" rx="4" ry="4" width="5" height="8" fill="#3fb950"/>
   <text x="406" y="69" font-family="-apple-system,Segoe UI,Helvetica,Arial" font-size="12" font-weight="600" fill="#3fb950" text-anchor="end">2%</text>

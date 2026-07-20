@@ -14,7 +14,7 @@ I'm **@erchoc** — building open-source tools.
 
 <!-- PROGRESS:START -->
 <!-- 由 scripts/update_progress.py + GitHub Action 每 6h 自动更新 -->
-<img src="assets/progress.svg?v=49_17" width="420" alt="progress"/>
+<img src="assets/progress.svg?v=49_19" width="420" alt="progress"/>
 <!-- PROGRESS:END -->
 
 <br>
